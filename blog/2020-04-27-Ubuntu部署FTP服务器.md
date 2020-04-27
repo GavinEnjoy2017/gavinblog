@@ -4,7 +4,7 @@ title: Ubuntu部署FTP服务器
 author: Gavin.Tian
 author_title: 前端/.net开发工程师 @Newegg
 author_url:
-author_image_url: https://gavinblog.now.sh/static/img/logo.png
+author_image_url: http://122.51.165.226/image/logo.png
 tags: [Linux, Ubuntu, FTP]
 ---
 
