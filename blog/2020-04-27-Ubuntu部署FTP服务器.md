@@ -8,10 +8,13 @@ author_image_url: https://gavinblog.now.sh/static/img/logo.png
 tags: [Linux, Ubuntu, FTP]
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 近日在Ubuntu上部署FTP服务器，想来记录一下过程。
 
 1. 需要有一台服务器，例如虚拟机或者云服务器都可以，本次就用云服务器部署，首先下载FTP服务器
     `sudo apt-get install vsftpd -g`
+<!--truncate-->
 
 2. 下载完成之后需要编辑FTP的配置文件,`sudo vim /etc/vsftpd.conf`,修改如下：
     ```
